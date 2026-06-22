@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e2259;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  
+  /* Navy Blue Palette — from Summit Global logo text */
+  --color-blue-50: #f0f2f8;
+  --color-blue-100: #dde1f0;
+  --color-blue-200: #bbc3e1;
+  --color-blue-300: #99a5d2;
+  --color-blue-400: #7787c3;
+  --color-blue-500: #1e2259;
+  --color-blue-600: #1a1d4e;
+  --color-blue-700: #151842;
+  --color-blue-800: #101237;
+  --color-blue-900: #0b0e2b;
+  --color-blue-950: #06081f;
+
+  /* Brand Palette */
+  --color-brand-50: #f0f2f8;
+  --color-brand-100: #dde1f0;
+  --color-brand-200: #bbc3e1;
+  --color-brand-300: #99a5d2;
+  --color-brand-400: #7787c3;
+  --color-brand-500: #1e2259;
+  --color-brand-600: #1a1d4e;
+  --color-brand-700: #151842;
+  --color-brand-800: #101237;
+  --color-brand-900: #0b0e2b;
+  --color-brand-950: #06081f;
+
+  /* Logo Accent Colors — from the S and G in the logo */
+  --color-sky-500: #009edb;
+  --color-green-500: #108b4b;
+  --color-green-600: #0e7a41;
+
+  /* Warm Gold Accent for CTAs */
+  --color-amber-400: #e0c060;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b0e24;
+    --foreground: #edeef5;
+  }
+}
+
+body {
+  background: #ffffff;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
