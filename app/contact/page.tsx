@@ -263,7 +263,7 @@ const ContactPage: React.FC = () => {
             <div className="bg-white rounded-2xl p-5 shadow-lg border border-gray-100 overflow-hidden">
               <h3 className="text-lg font-black text-gray-900 mb-3">Visit Our Office</h3>
               <div className="rounded-xl overflow-hidden h-[240px]">
-                <iframe src="https://www.google.com/maps?q=Mumbai&output=embed"
+                <iframe src="https://maps.google.com/maps?q=Wave%20Silver%20Tower,%20Unit%20No-%20415,%204th%20Floor,%20Noida%20Sector-18,%20Noida,%20Uttar%20Pradesh%20201301&t=&z=15&ie=UTF-8&iwloc=&output=embed"
                   width="100%" height="100%" loading="lazy" style={{ border: 0 }} className="w-full h-full" />
               </div>
               <p className="text-sm text-gray-500 mt-3">
