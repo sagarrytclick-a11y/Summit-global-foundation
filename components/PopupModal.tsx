@@ -41,12 +41,7 @@ const PopupModal = () => {
           <img 
             src="/banner.png"
             alt="Promotion Banner"
-            /* 
-               Changes made:
-               1. Removed max-w-sm to let it fill the max-w-md container.
-               2. Changed object-cover to object-contain to prevent "cutting" or cropping.
-               3. Set height to auto or h-full to respect the image's original aspect ratio.
-            */
+            loading="eager"
             className="w-full h-auto max-h-[80vh] object-contain block"
           />
         </div>
