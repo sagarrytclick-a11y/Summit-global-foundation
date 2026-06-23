@@ -168,7 +168,7 @@ const MdMsStatePage: React.FC = () => {
             <div className="flex flex-wrap gap-6 mt-12">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
-                  <FaUniversity className="text-blue-500" />
+                  <FaUniversity className="text-white" />
                 </div>
                 <div>
                   <div className="text-2xl font-black">{stateData.colleges.length}</div>
@@ -178,7 +178,7 @@ const MdMsStatePage: React.FC = () => {
               
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center border border-white/10">
-                  <FaUserMd className="text-blue-500" />
+                  <FaUserMd className="text-white" />
                 </div>
                 <div>
                   <div className="text-2xl font-black">

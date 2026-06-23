@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image"; // Image component को इम्पोर्ट किया
 import {
   FaArrowRight,
   FaGraduationCap,
@@ -80,30 +81,49 @@ const NeetRankPredictorPage: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
       {/* HERO */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#0b0e24] via-[#141838] to-[#1e2259] py-20 lg:py-28">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#0b0e24] via-[#141838] to-[#1e2259] py-16 lg:py-24">
         <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#f59e0b]/5 blur-3xl rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
         <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[#f59e0b]/5 blur-3xl rounded-full translate-x-1/3 translate-y-1/3 pointer-events-none" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
-          <nav className="flex items-center gap-2 text-sm text-blue-200/70 mb-6">
-            <Link href="/" className="hover:text-white transition-colors">HOME</Link>
-            <span>/</span>
-            <span className="text-white font-medium">NEET Rank Predictor</span>
-          </nav>
+          {/* Grid Layout to manage Text and Image */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            
+            {/* Left Column: Content */}
+            <div className="max-w-3xl">
+              <nav className="flex items-center gap-2 text-sm text-blue-200/70 mb-6">
+                <Link href="/" className="hover:text-white transition-colors">HOME</Link>
+                <span>/</span>
+                <span className="text-white font-medium">NEET Rank Predictor</span>
+              </nav>
 
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-lg mb-5">
-              <FaChartLine className="text-[#f59e0b] text-sm" />
-              <span className="text-xs font-bold tracking-wider text-white/80 uppercase">NEET 2026 Rank Predictor</span>
+              <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-lg mb-5">
+                <FaChartLine className="text-[#f59e0b] text-sm" />
+                <span className="text-xs font-bold tracking-wider text-white/80 uppercase">NEET 2026 Rank Predictor</span>
+              </div>
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-5">
+                Predict Your
+                <span className="block text-[#f59e0b]">NEET Rank</span>
+              </h1>
+              <p className="text-blue-100/60 text-base lg:text-lg leading-relaxed max-w-xl">
+                Estimate your All India Rank based on your NEET UG score using previous year trends.
+                This is an approximate prediction — actual rank may vary based on exam difficulty and number of candidates.
+              </p>
             </div>
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-5">
-              Predict Your
-              <span className="block text-[#f59e0b]">NEET Rank</span>
-            </h1>
-            <p className="text-blue-100/60 text-base lg:text-lg leading-relaxed max-w-xl">
-              Estimate your All India Rank based on your NEET UG score using previous year trends.
-              This is an approximate prediction — actual rank may vary based on exam difficulty and number of candidates.
-            </p>
+
+            {/* Right Column: Image */}
+            <div className="relative flex justify-center lg:justify-end w-full">
+              <div className="relative w-full max-w-[450px] aspect-[4/3] sm:aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+                <Image 
+                  src="https://i.pinimg.com/736x/bf/33/c2/bf33c2d4d038782daa119519703d8de0.jpg" // यहाँ अपनी इमेज का पाथ डालें (e.g., /images/hero.png)
+                  alt="NEET Rank Prediction Illustration"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

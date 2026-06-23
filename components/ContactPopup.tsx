@@ -237,7 +237,7 @@ const ContactPopup: React.FC = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="h-13 w-full rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-300 disabled:opacity-70"
+            className="h-13 w-full rounded-xl bg-blue-600  text-white font-semibold shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-300 disabled:opacity-70"
           >
             {isSubmitting
               ? 'Submitting...'

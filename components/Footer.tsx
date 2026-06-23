@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
     { name: "MBBS In Kazakhstan", href: "/country/kazakhstan" },
     { name: "MBBS In Bangladesh", href: "/country/bangladesh" },
     { name: "MBBS In Georgia", href: "/country/georgia" },
-    { name: "MBBS In Philippines", href: "/country/philippines" },
+    {name: "MBBS In Uzbekistan", href: "/country/uzbekistan"} , 
     { name: "MBBS In Russia", href: "/country/russia" },
     { name: "MBBS In Uzbekistan", href: "/country/uzbekistan" },
   ];
