@@ -95,12 +95,26 @@ const CountrySlugPage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
-        <div className="text-center">
-          <div className="h-14 w-14 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-600 font-medium">
-            Loading Country Details...
-          </p>
+      <div className="min-h-screen bg-slate-50">
+        <div className="animate-pulse">
+          <div className="bg-slate-300 h-96" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+              {[...Array(3)].map((_, i) => (
+                <div key={i} className="bg-white rounded-3xl overflow-hidden border border-slate-200">
+                  <div className="h-60 bg-slate-200" />
+                  <div className="p-6 space-y-4">
+                    <div className="h-6 bg-slate-200 rounded w-3/4" />
+                    <div className="space-y-3">
+                      <div className="h-4 bg-slate-200 rounded w-full" />
+                      <div className="h-4 bg-slate-200 rounded w-full" />
+                      <div className="h-4 bg-slate-200 rounded w-2/3" />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     );

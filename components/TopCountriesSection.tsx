@@ -56,9 +56,24 @@ const TopCountriesSection: React.FC = () => {
   if (loading) {
     return (
       <section className="py-20 bg-gradient-to-b from-white to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <div className="inline-block h-12 w-12 rounded-full border-4 border-blue-200 border-t-blue-600 animate-spin mx-auto"></div>
-          <h2 className="text-4xl font-black text-gray-900 mt-4">Loading Countries...</h2>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="animate-pulse">
+            <div className="flex justify-center mb-16">
+              <div className="h-10 bg-gray-200 rounded w-72" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+              {[...Array(3)].map((_, i) => (
+                <div key={i} className="bg-white border border-gray-200 rounded-[32px] overflow-hidden">
+                  <div className="h-[240px] bg-gray-200" />
+                  <div className="p-7 space-y-4">
+                    <div className="h-4 bg-gray-200 rounded w-3/4" />
+                    <div className="h-4 bg-gray-200 rounded w-full" />
+                    <div className="h-4 bg-gray-200 rounded w-1/2" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     );

@@ -77,10 +77,27 @@ const MdMsStatePage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
-        <div className="text-center">
-          <div className="h-14 w-14 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-slate-600 font-medium">Loading MD/MS Details...</p>
+      <div className="min-h-screen bg-slate-50">
+        <div className="animate-pulse">
+          <div className="bg-slate-300 h-72" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20">
+            <div className="bg-white rounded-[40px] p-8 md:p-12 space-y-6 shadow-xl">
+              <div className="h-8 bg-slate-200 rounded w-1/3" />
+              <div className="h-4 bg-slate-200 rounded w-2/3" />
+              <div className="h-4 bg-slate-200 rounded w-1/2" />
+              <div className="border-t border-slate-100 pt-6 space-y-4">
+                {[...Array(3)].map((_, i) => (
+                  <div key={i} className="flex gap-6">
+                    <div className="h-12 w-12 bg-slate-200 rounded" />
+                    <div className="flex-1 space-y-2">
+                      <div className="h-4 bg-slate-200 rounded w-1/4" />
+                      <div className="h-3 bg-slate-200 rounded w-1/2" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
