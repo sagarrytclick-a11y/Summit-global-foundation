@@ -10,8 +10,8 @@ export const SITE_IDENTITY = {
     pincode: "201301"
   },
   contact: {
-    phone: "+91 93540 23968, +91 97738 62945",
-    email: "summitfoundglobal@gmail.com",
+    phone: "+91 97738 62945, +91 97735 23880",
+    email: "summitfoundationglobal@gmail.com",
     googleMapsUrl: ""
   },
   officeHours: {
