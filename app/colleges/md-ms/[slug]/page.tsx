@@ -158,7 +158,7 @@ const MdMsStatePage: React.FC = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight">
-              MD / MS in <span className="text-blue-500">{stateData.name}</span>
+              MD / MS in <span className="text-white">{stateData.name}</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-400 leading-relaxed max-w-3xl font-medium">
