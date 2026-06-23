@@ -221,7 +221,7 @@ const CampusDiarySection: React.FC = () => {
               {/* Card metadata */}
               <div className="px-5 py-4 flex items-center justify-between border-t border-white/10">
                 <span className="text-[10px] font-bold tracking-widest text-white/50 uppercase">
-                  AR GROUP
+                  Summit foundation 
                 </span>
                 <span className="text-sm font-bold text-white">
                   {String(activeIndex + 1).padStart(2, "0")} / {String(totalDiaries).padStart(2, "0")}

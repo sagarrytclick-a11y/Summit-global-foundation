@@ -23,7 +23,7 @@ const reviews: ReviewItem[] = [
     country: "Russia",
     countryColor: "bg-blue-100 text-blue-700",
     quote:
-      "\"AR Group guided me through NEET counselling and university selection in Russia. Visa and hostel paperwork were handled smoothly, and I started MBBS on time.\"",
+      "\"Summit foundation guided me through NEET counselling and university selection in Russia. Visa and hostel paperwork were handled smoothly, and I started MBBS on time.\"",
   },
   {
     name: "Rahul Patel",
@@ -39,7 +39,7 @@ const reviews: ReviewItem[] = [
     country: "Kazakhstan",
     countryColor: "bg-amber-100 text-amber-700",
     quote:
-      "\"From document verification to airport pickup coordination, AR Group made my first year abroad stress-free. Highly recommend for Kazakhstan MBBS.\"",
+      "\"From document verification to airport pickup coordination, Summit foundation made my first year abroad stress-free. Highly recommend for Kazakhstan MBBS.\"",
   },
   {
     name: "Sneha Reddy",
@@ -47,7 +47,7 @@ const reviews: ReviewItem[] = [
     country: "India",
     countryColor: "bg-rose-100 text-rose-700",
     quote:
-      "\"AR Group's India MBBS counselling helped me secure a government seat in Maharashtra. Their state-wise cut-off analysis was spot on.\"",
+      "\"Summit foundation's India MBBS counselling helped me secure a government seat in Maharashtra. Their state-wise cut-off analysis was spot on.\"",
   },
   {
     name: "Imran Hossain",
@@ -55,7 +55,7 @@ const reviews: ReviewItem[] = [
     country: "Bangladesh",
     countryColor: "bg-emerald-100 text-emerald-700",
     quote:
-      "\"As an Indian student, I needed clarity on SAARC quotas and NMC compliance. AR Group handled every form and embassy appointment.\"",
+      "\"As an Indian student, I needed clarity on SAARC quotas and NMC compliance. Summit foundation  handled every form and embassy appointment.\"",
   },
   {
     name: "Kavya Nair",
@@ -71,7 +71,7 @@ const reviews: ReviewItem[] = [
     country: "Georgia",
     countryColor: "bg-green-100 text-green-700",
     quote:
-      "\"Best decision I made was choosing AR Group. They helped me compare universities and choose the one within my budget. Forever grateful.\"",
+      "\"Best decision I made was choosing Summit foundation. They helped me compare universities and choose the one within my budget. Forever grateful.\"",
   },
   {
     name: "Fatima Khan",
@@ -79,7 +79,7 @@ const reviews: ReviewItem[] = [
     country: "Kazakhstan",
     countryColor: "bg-amber-100 text-amber-700",
     quote:
-      "\"From NEET score to flight tickets, AR Group handled everything. My parents were at ease knowing I was in safe hands throughout the journey.\"",
+      "\"From NEET score to flight tickets, Summit foundation handled everything. My parents were at ease knowing I was in safe hands throughout the journey.\"",
   },
 ];
 
