@@ -2,11 +2,13 @@
 import React from 'react';
 import mbbsIndiaData from '../public/mbbs-india.json';
 import mbbsAbroadData from '../public/mbbs-abroad.json';
+import btechData from '../public/btech.json';
 
 // Cache keys
 export const CACHE_KEYS = {
   MBBS_INDIA: 'mbbs_india_data',
   MBBS_ABROAD: 'mbbs_abroad_data',
+  BTECH: 'btech_data',
   LAST_UPDATED: 'data_last_updated'
 };
 
@@ -59,6 +61,9 @@ export class DataCache {
       case CACHE_KEYS.MBBS_ABROAD:
         data = mbbsAbroadData;
         break;
+      case CACHE_KEYS.BTECH:
+        data = btechData;
+        break;
       default:
         return null;
     }
@@ -104,6 +109,7 @@ export class DataCache {
   preload(): void {
     this.get(CACHE_KEYS.MBBS_INDIA);
     this.get(CACHE_KEYS.MBBS_ABROAD);
+    this.get(CACHE_KEYS.BTECH);
   }
 }
 

@@ -206,6 +206,7 @@ const ContactPopup: React.FC = () => {
                 <option value="mbbs-india">MBBS India</option>
                 <option value="mbbs-abroad">MBBS Abroad</option>
                 <option value="md-ms-bds">MD / MS / BDS</option>
+                <option value="btech">BTech / Engineering</option>
               </select>
             </div>
           </div>

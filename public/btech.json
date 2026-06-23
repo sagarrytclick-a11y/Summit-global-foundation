@@ -1,0 +1,963 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Delhi NCR",
+      "slug": "delhi-ncr",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800",
+      "description": "Premier hub for engineering education in Delhi National Capital Region encompassing New Delhi, Noida, Greater Noida, and Ghaziabad.",
+      "colleges": [
+        {
+          "id": 1001,
+          "name": "MSIT",
+          "city": "New Delhi",
+          "fees": "text: ₹1.68 LPA",
+          "seats": 600,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Rated Private Engineering College in Delhi",
+          "type": "Private",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsOqhALRgb5-p7Nq25HJss6Oeebw6zYBFrw&s",
+          "admissionProcess": "Admission through IPU CET / JEE Main score followed by GGSIPU counselling.",
+          "placements": "Excellent placement records with top IT firms and tech multinationals.",
+          "entranceExams": ["JEE Main", "IPU CET"],
+          "academicHighlights": ["Strong academic curriculum", "State of the art infrastructure", "Prime location in New Delhi"],
+          "detailedFees": {
+            "tuitionFee": "₹1.68 LPA",
+            "hostelFee": "As per availability",
+            "otherFees": "University charges extra"
+          },
+          "documentsRequired": ["JEE Main Scorecard", "IPU Allotment Letter", "Class 10 & 12 Marksheets", "Migration Certificate"],
+          "placementStats": {
+            "medianSalaryUG": "₹7 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹25,000 per month",
+            "topRecruiters": ["TCS", "Infosys", "Cognizant", "Amazon"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1002,
+          "name": "JYPEE Noida",
+          "city": "Noida",
+          "fees": "text: ₹3.75 LPA",
+          "seats": 1200,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Ranked Deemed University in Noida",
+          "type": "Private",
+          "image": "https://static.boostmytalent.com/img/univ/jaypee-noida-university-jiit-noida-campus-admission.webp",
+          "admissionProcess": "Admission through JEE Main Rank or 10+2 Merit Board Marks.",
+          "placements": "Consistent high percentage placements with premier packages in IT.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Rigorous curriculum", "Advanced computing labs", "Excellent campus infrastructure"],
+          "detailedFees": {
+            "tuitionFee": "₹3.75 LPA",
+            "hostelFee": "₹1,50,000 per year",
+            "otherFees": "Institutional development charges extra"
+          },
+          "documentsRequired": ["JEE Main Scorecard", "JIIT Application Form", "Class 10 & 12 Marksheets", "ID Proof"],
+          "placementStats": {
+            "medianSalaryUG": "₹11 LPA",
+            "medianSalaryPG": "₹6 LPA",
+            "internshipStipend": "₹45,000 per month",
+            "topRecruiters": ["Adobe", "Microsoft", "Amazon", "Wipro"]
+          },
+          "nriFees": "$7,000 per year"
+        },
+        {
+          "id": 1003,
+          "name": "Shiv Nadar University",
+          "city": "Noida",
+          "fees": "text: ₹6 LPA",
+          "seats": 500,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Private Multidisciplinary Research University",
+          "type": "Private",
+          "image": "https://snu.edu.in/site/assets/files/7907/shss_2.1600x0.webp",
+          "admissionProcess": "Admission via SNUSAT and APT exams or valid JEE Main scores.",
+          "placements": "Premium placement opportunities with highly specialized international roles.",
+          "entranceExams": ["SNUSAT", "JEE Main"],
+          "academicHighlights": ["Strong emphasis on undergraduate research", "Ivy League caliber faculty", "Expansive lush campus"],
+          "detailedFees": {
+            "tuitionFee": "₹6 LPA",
+            "hostelFee": "Included in residential charges",
+            "otherFees": "Admission fee & security deposits extra"
+          },
+          "documentsRequired": ["SNUSAT Scorecard", "JEE Main Rank Card", "Class 10 & 12 Certificates", "Letters of Recommendation"],
+          "placementStats": {
+            "medianSalaryUG": "₹15 LPA",
+            "medianSalaryPG": "₹12 LPA",
+            "internshipStipend": "₹60,000 per month",
+            "topRecruiters": ["Goldman Sachs", "HCL", "Amazon", "Deloitte"]
+          },
+          "nriFees": "$10,000 per year"
+        },
+        {
+          "id": 1004,
+          "name": "JSS Noida",
+          "city": "Noida",
+          "fees": "text: ₹1.38 LPA",
+          "seats": 900,
+          "recognition": "UGC/AICTE",
+          "ranking": "Premier Affiliated Institute under AKTU",
+          "type": "Private",
+          "image": "https://jssaten.ac.in/assets/a7.jpg",
+          "admissionProcess": "Admission based on JEE Main score followed by UPTAC counselling.",
+          "placements": "Strong corporate connections leading to high placement rates.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Highly experienced faculty", "Active student technical chapters", "Excellent academic records"],
+          "detailedFees": {
+            "tuitionFee": "₹1.38 LPA",
+            "hostelFee": "₹90,000 per year",
+            "otherFees": "Examination and library fees extra"
+          },
+          "documentsRequired": ["JEE Main Rank Card", "UPTAC Allotment Letter", "Class 10 & 12 Marksheets", "Domicile Certificate"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.5 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹20,000 per month",
+            "topRecruiters": ["TCS", "Capgemini", "Accenture", "Cognizant"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1005,
+          "name": "AKGES Ghaziabad",
+          "city": "Ghaziabad",
+          "fees": "text: ₹1.43 LPA",
+          "seats": 1000,
+          "recognition": "UGC/AICTE",
+          "ranking": "Awarded Best Engineering College under AKTU",
+          "type": "Private",
+          "image": "https://static.boostmytalent.com/img/univ/ajay-kumar-garg-college-ghaziabad-campus-admission.webp",
+          "admissionProcess": "Admission via JEE Main through UPTAC counselling.",
+          "placements": "Outstanding placement stats with dedicated industrial centers of excellence.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Advanced automation and robotics labs", "Rigorous academic environment", "Skill development focus"],
+          "detailedFees": {
+            "tuitionFee": "₹1.43 LPA",
+            "hostelFee": "₹95,000 per year",
+            "otherFees": "Registration and student activity charges"
+          },
+          "documentsRequired": ["JEE Main Scorecard", "UPTAC Seat Confirmation", "Class 10 & 12 Marksheets", "Character Certificate"],
+          "placementStats": {
+            "medianSalaryUG": "₹6 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹22,000 per month",
+            "topRecruiters": ["Infosys", "Wipro", "HCL Tech", "Tech Mahindra"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1006,
+          "name": "KIET Ghaziabad",
+          "city": "Ghaziabad",
+          "fees": "text: ₹1.36 LPA",
+          "seats": 950,
+          "recognition": "UGC/AICTE",
+          "ranking": "Highly Rated Private Engineering Institute in Ghaziabad",
+          "type": "Private",
+          "image": "https://dfhe5ze0n4pxu.cloudfront.net/College/Image/Image-1774355575727.jpg",
+          "admissionProcess": "Admission through UPTAC Centralized Counselling based on JEE Main scores.",
+          "placements": "Excellent record of placing students in Tier-1 IT companies and core sectors.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["NBA Accredited courses", "Strong innovation and incubation cell", "Student driven tech-hubs"],
+          "detailedFees": {
+            "tuitionFee": "₹1.36 LPA",
+            "hostelFee": "₹88,000 per year",
+            "otherFees": "Caution deposit refundable extra"
+          },
+          "documentsRequired": ["JEE Main Marksheet", "UPTAC Allotment Status", "10+2 Certificates", "Income Certificate if applicable"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.2 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹20,000 per month",
+            "topRecruiters": ["Capgemini", "Amazon", "TCS Digital", "NTT Data"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1007,
+          "name": "ABES Ghaziabad",
+          "city": "Ghaziabad",
+          "fees": "text: ₹1.34 LPA",
+          "seats": 900,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Engineering Institution in NCR East Region",
+          "type": "Private",
+          "image": "https://www.abes.ac.in/assets/2.jpg",
+          "admissionProcess": "Admission via JEE Main centralized rank lists through UPTAC state channel.",
+          "placements": "Mass placement drives along with high package product companies.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Strong training and placement wing", "State-of-the-art labs", "Exceptional extracurricular culture"],
+          "detailedFees": {
+            "tuitionFee": "₹1.34 LPA",
+            "hostelFee": "₹92,000 per year",
+            "otherFees": "Exam fees extra as per University"
+          },
+          "documentsRequired": ["JEE Main Admit & Scorecard", "UPTAC Documents", "10th & 12th Board marksheets"],
+          "placementStats": {
+            "medianSalaryUG": "₹5.8 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹18,000 per month",
+            "topRecruiters": ["Wipro", "Cognizant", "Newgen", "Mphasis"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1008,
+          "name": "GL Bajaj",
+          "city": "Greater Noida",
+          "fees": "text: ₹1.66 LPA",
+          "seats": 960,
+          "recognition": "UGC/AICTE",
+          "ranking": "Leading Engineering College in Greater Noida Hub",
+          "type": "Private",
+          "image": "https://digpu.com/wp-content/uploads/2020/07/GL-Bajaj-Digpu.jpg.webp",
+          "admissionProcess": "Admission verified through UPTAC counselling based on JEE Main scores.",
+          "placements": "Consistently high placement rate with high placement counts in MNCs.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Industry linked labs", "Great proximity to knowledge park commercial avenues", "Modern infrastructure"],
+          "detailedFees": {
+            "tuitionFee": "₹1.66 LPA",
+            "hostelFee": "₹1,10,000 per year",
+            "otherFees": "Uniform and development fees included"
+          },
+          "documentsRequired": ["JEE Main Rank Card", "UPTAC Allocation confirmation", "Class 10 & 12 Academic records"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.8 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹25,000 per month",
+            "topRecruiters": ["Bosch", "Amazon", "Cisco", "Mindtree"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1009,
+          "name": "Galgotia College",
+          "city": "Greater Noida",
+          "fees": "text: ₹1.15 LPA",
+          "seats": 1100,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Rated Private Technical Institution in North India",
+          "type": "Private",
+          "image": "https://websiteupload.s3.ap-south-1.amazonaws.com/2024/05/galgotias-university-infrastructure-highlights-that-make-it-a-university-of-choice-for-students.jpg",
+          "admissionProcess": "Through UPTAC counselling utilizing rank obtained in JEE Main examination.",
+          "placements": "Massive corporate drives with high placements numbers annually.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Sprawling vibrant campus", "World class library resources", "Active technology incubators"],
+          "detailedFees": {
+            "tuitionFee": "₹1.15 LPA",
+            "hostelFee": "₹1,20,000 per year",
+            "otherFees": "Student activities fee extra"
+          },
+          "documentsRequired": ["JEE Main Score Sheet", "UPTAC Counselling Papers", "High School and Intermediate Certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.0 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹20,000 per month",
+            "topRecruiters": ["Infosys", "Ericsson", "Cognizant", "Amazon"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 1010,
+          "name": "NIET",
+          "city": "Greater Noida",
+          "fees": "text: ₹1.86 LPA",
+          "seats": 840,
+          "recognition": "UGC/AICTE",
+          "ranking": "Autonomous Engineering Campus of Repute in Greater Noida",
+          "type": "Private",
+          "image": "https://www.niet.co.in/assets/frontend/images/niet-college-1.webp",
+          "admissionProcess": "Admission filtered via UPTAC channel based upon student performance in JEE Main.",
+          "placements": "Good placement tracking across international and domestic software sectors.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Autonomous academic curriculum benefits", "Specialized tech labs with Apple, AWS", "Skill optimization focus"],
+          "detailedFees": {
+            "tuitionFee": "₹1.86 LPA",
+            "hostelFee": "₹95,000 per year",
+            "otherFees": "Exams fees added separately"
+          },
+          "documentsRequired": ["JEE Main Score Sheet", "Allotment Letter via UPTAC", "Class 10 & 12 Passing documents"],
+          "placementStats": {
+            "medianSalaryUG": "₹5.5 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹15,000 per month",
+            "topRecruiters": ["Virtusa", "HCL", "Zensar", "TCS"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Maharashtra (Pune)",
+      "slug": "pune",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=800",
+      "description": "Premium industrial and software engineering hub located in Pune, providing exceptional employment exposure.",
+      "colleges": [
+        {
+          "id": 2001,
+          "name": "SIT",
+          "city": "Pune",
+          "fees": "text: ₹4 LPA",
+          "seats": 420,
+          "recognition": "UGC/AICTE",
+          "ranking": "Symbiosis Constituent Premium Engineering Unit",
+          "type": "Private",
+          "image": "https://static.boostmytalent.com/img/univ/siddaganga-institute-of-technology-sit-tumkur-campus-admission.webp",
+          "admissionProcess": "Admission via SITEEE entrance test or JEE Main/MHT CET scores.",
+          "placements": "High end premium corporate linkages with global engineering players.",
+          "entranceExams": ["SITEEE", "JEE Main", "MHT CET"],
+          "academicHighlights": ["International student exchange pathways", "Interdisciplinary program framework", "Idyllic campus views"],
+          "detailedFees": {
+            "tuitionFee": "₹4 LPA",
+            "hostelFee": "₹1,80,000 per year",
+            "otherFees": "Institute deposit refundable extra"
+          },
+          "documentsRequired": ["SITEEE / JEE Score Record", "Symbiosis registration letter", "Academic certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹12.5 LPA",
+            "medianSalaryPG": "₹9 LPA",
+            "internshipStipend": "₹40,000 per month",
+            "topRecruiters": ["Microsoft", "Rakuten", "Siemens", "Persistent"]
+          },
+          "nriFees": "$8,500 per year"
+        },
+        {
+          "id": 2002,
+          "name": "VIT Pune",
+          "city": "Pune",
+          "fees": "text: ₹2.12 LPA",
+          "seats": 800,
+          "recognition": "UGC/AICTE",
+          "ranking": "Highly Reputed Autonomous Institute in Pune",
+          "type": "Private",
+          "image": "https://images.shiksha.com/mediadata/images/1574860771phpIrMyYt.png",
+          "admissionProcess": "Admission through MHT CET or JEE Main scores through centralized CAP rounds.",
+          "placements": "Strong corporate ties with high placement percentage across IT and Core sectors.",
+          "entranceExams": ["MHT CET", "JEE Main"],
+          "academicHighlights": ["Autonomous academic curriculum", "Project-based learning approach", "Strong technical student culture"],
+          "detailedFees": {
+            "tuitionFee": "₹2.12 LPA",
+            "hostelFee": "₹1,10,000 per year",
+            "otherFees": "Development fund fees included"
+          },
+          "documentsRequired": ["MHT CET Scorecard", "CAP Round Allotment Proof", "HSC & SSC Marksheets", "Domicile Certificate"],
+          "placementStats": {
+            "medianSalaryUG": "₹8.5 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹30,000 per month",
+            "topRecruiters": ["NVIDIA", "Barclays", "Deutsche Bank", "TCS"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 2003,
+          "name": "PICT",
+          "city": "Pune",
+          "fees": "text: ₹1.10 LPA",
+          "seats": 540,
+          "recognition": "UGC/AICTE",
+          "ranking": "Elite Technical Institution for Computer and IT in Pune",
+          "type": "Private",
+          "image": "https://www.campustimespune.com/how-to-reach-pict-campus/how-to-reach-pict-from-different-parts-of-pune/",
+          "admissionProcess": "Highly competitive admissions via MHT CET and JEE Main CAP rounds.",
+          "placements": "Phenomenal coding culture resulting in elite product engineering placements.",
+          "entranceExams": ["MHT CET", "JEE Main"],
+          "academicHighlights": ["Peerless coding ecosystem", "Extremely high academic focus", "Top tier placements matching NITs"],
+          "detailedFees": {
+            "tuitionFee": "₹1.10 LPA",
+            "hostelFee": "₹75,000 per year",
+            "otherFees": "Student insurance and university fees extra"
+          },
+          "documentsRequired": ["MHT CET / JEE Rank file", "CAP confirmation slip", "Class 10 & 12 mark sheets"],
+          "placementStats": {
+            "medianSalaryUG": "₹14 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹50,000 per month",
+            "topRecruiters": ["PhonePe", "Mastercard", "Amazon", "Pubmatic"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 2004,
+          "name": "PCCOE",
+          "city": "Pune",
+          "fees": "text: ₹1.78 LPA",
+          "seats": 600,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Tier Autonomous College in Pimpri Chinchwad industrial belt",
+          "type": "Private",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgHltc36f-syeyFXp7wmDy-kWgq0hcP2G3g&s",
+          "admissionProcess": "Admissions through centralized DTE Maharashtra CAP rounds using MHT CET or JEE Main scores.",
+          "placements": "Excellent placement records within mechanical, auto, and software streams.",
+          "entranceExams": ["MHT CET", "JEE Main"],
+          "academicHighlights": ["Proximity to major automobile engineering hubs", "Research oriented student cells", "Disciplined work culture"],
+          "detailedFees": {
+            "tuitionFee": "₹1.78 LPA",
+            "hostelFee": "₹85,000 per year",
+            "otherFees": "Library and lab deposits extra"
+          },
+          "documentsRequired": ["MHT CET Score Document", "DTE Allotment Proof", "HSC certificates", "Nationality Certificate"],
+          "placementStats": {
+            "medianSalaryUG": "₹7.2 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹25,000 per month",
+            "topRecruiters": ["Capgemini", "KPIT", "Cognizant", "TATA Motors"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 2005,
+          "name": "DY Patil",
+          "city": "Pune",
+          "fees": "text: ₹3.75 LPA",
+          "seats": 720,
+          "recognition": "UGC/AICTE",
+          "ranking": "Premium Private University Campus in Akurdi",
+          "type": "Private",
+          "image": "https://www.dypiu.ac.in/assets/images/home/banner.webp",
+          "admissionProcess": "Admission managed through DY Patil University Entrance Exam, MHT CET, or JEE Main.",
+          "placements": "Good career launch opportunities across diverse tech portfolios.",
+          "entranceExams": ["MHT CET", "JEE Main", "DYPU Entrance"],
+          "academicHighlights": ["Ultra modern architecture", "Global standard infrastructure", "Wide elective options"],
+          "detailedFees": {
+            "tuitionFee": "₹3.75 LPA",
+            "hostelFee": "₹1,40,000 per year",
+            "otherFees": "Activity and sports hub passes extra"
+          },
+          "documentsRequired": ["Entrance Exam scorecard", "Application fee receipt", "10+2 passing proofs"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.8 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹20,000 per month",
+            "topRecruiters": ["Wipro", "LTI", "TCS Ninja", "Syntel"]
+          },
+          "nriFees": "$6,500 per year"
+        },
+        {
+          "id": 2006,
+          "name": "MIT WPU",
+          "city": "Pune",
+          "fees": "text: ₹4.10 LPA",
+          "seats": 1500,
+          "recognition": "UGC/AICTE",
+          "ranking": "Leading Tech and Peace Private University in Maharashtra",
+          "type": "Private",
+          "image": "https://dfhe5ze0n4pxu.cloudfront.net/College/Background-Images/Background-Image-1767600974434.jpg",
+          "admissionProcess": "Admission through MIT-WPU CET, JEE Main, or MHT CET counseling streams.",
+          "placements": "Global recruiters offer corporate engineering tracks across sectors.",
+          "entranceExams": ["MIT-WPU CET", "JEE Main", "MHT CET"],
+          "academicHighlights": ["Holistic peace study modules integrated", "Very strong global alumni base", "Excellent tech infrastructure"],
+          "detailedFees": {
+            "tuitionFee": "₹4.10 LPA",
+            "hostelFee": "₹1,75,000 per year",
+            "otherFees": "Processing charges extra"
+          },
+          "documentsRequired": ["Entrance Rank parameters", "12th board marks sheets", "Transfer & Migration certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹8.2 LPA",
+            "medianSalaryPG": "₹10 LPA",
+            "internshipStipend": "₹35,000 per month",
+            "topRecruiters": ["IBM", "Infosys", "Deloitte", "Mercedes Benz"]
+          },
+          "nriFees": "$9,000 per year"
+        },
+        {
+          "id": 2007,
+          "name": "Bharati Vidyapeeth",
+          "city": "Pune",
+          "fees": "text: ₹2.25 LPA",
+          "seats": 700,
+          "recognition": "UGC/AICTE",
+          "ranking": "Prestigious Deemed University Campus in Pune",
+          "type": "Private",
+          "image": "https://www.bharatividyapeethfees.com/images/slider2.jpg",
+          "admissionProcess": "Admission through BVP B-TECH national level entrance test.",
+          "placements": "Consistent campus placements tracking over a vast domain of core companies.",
+          "entranceExams": ["BVP B-TECH"],
+          "academicHighlights": ["Vast campus expanse", "Rich institutional history", "Comprehensive labs setups"],
+          "detailedFees": {
+            "tuitionFee": "₹2.25 LPA",
+            "hostelFee": "₹1,20,000 per year",
+            "otherFees": "Admission service framework fee"
+          },
+          "documentsRequired": ["BVP Test Score Sheet", "Counselling allotment letter", "Academic credentials"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.5 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹18,000 per month",
+            "topRecruiters": ["TCS Digital", "L&T Infotech", "Amazon", "Mphasis"]
+          },
+          "nriFees": "$5,500 per year"
+        },
+        {
+          "id": 2008,
+          "name": "SINGHGAD",
+          "city": "Pune",
+          "fees": "text: ₹1.05 LPA",
+          "seats": 1800,
+          "recognition": "UGC/AICTE",
+          "ranking": "Massive Technical Educational Conglomerate in Vadgaon",
+          "type": "Private",
+          "image": "https://content3.jdmagicbox.com/v2/comp/pune/q4/020pxx20.xx20.230614002041.x9q4/catalogue/sinhgad-college-of-engineering-sinhagad-road-vadgaon-budruk-pune-colleges-4u146apygw.jpg",
+          "admissionProcess": "Centralized admission round DTE channel utilizing MHT CET or JEE Main scores.",
+          "placements": "Vast centralized campus recruitment pool connecting all sub-branches.",
+          "entranceExams": ["MHT CET", "JEE Main"],
+          "academicHighlights": ["Very affordable cost of engineering", "Massive student community", "Expansive hillside campus infrastructure"],
+          "detailedFees": {
+            "tuitionFee": "₹1.05 LPA",
+            "hostelFee": "₹65,000 per year",
+            "otherFees": "Mess fees separated extra"
+          },
+          "documentsRequired": ["MHT CET Score Records", "CAP Round Assignment file", "Passing certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹5.0 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹15,000 per month",
+            "topRecruiters": ["Accenture", "Cognizant", "Capgemini", "TCS"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 2009,
+          "name": "VIIT Pune",
+          "city": "Pune",
+          "fees": "text: ₹1.83 LPA",
+          "seats": 600,
+          "recognition": "UGC/AICTE",
+          "ranking": "Highly Rated Autonomous Sister Institute of VIT Pune",
+          "type": "Private",
+          "image": "https://image-static.collegedunia.com/public/college_data/images/appImage/28914_1451278229_Ox6gXWb3IdA0voUocglF.jpg",
+          "admissionProcess": "Admission managed via DTE Maharashtra CAP rounds using MHT CET / JEE scores.",
+          "placements": "Shares high end joint placement pools alongside core VIT ecosystem.",
+          "entranceExams": ["MHT CET", "JEE Main"],
+          "academicHighlights": ["Autonomous modern grading setup", "Strong technical student development project clusters", "Excellent placement records"],
+          "detailedFees": {
+            "tuitionFee": "₹1.83 LPA",
+            "hostelFee": "₹1,05,000 per year",
+            "otherFees": "Exam processing fee extra"
+          },
+          "documentsRequired": ["MHT CET Score Card", "Central Allotment Letter", "HSC & SSC Marksheets"],
+          "placementStats": {
+            "medianSalaryUG": "₹7.8 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹28,000 per month",
+            "topRecruiters": ["Zensar", "Persistent Systems", "Barclays", "Cognizant"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "South India (Bangalore / Chennai / regions)",
+      "slug": "bangalore-chennai",
+      "image": "https://images.unsplash.com/photo-1596178060671-7a80dc8058fc?w=800",
+      "description": "Tech hub powerhouse encompassing legendary private colleges and engineering giants of South India.",
+      "colleges": [
+        {
+          "id": 3001,
+          "name": "RV College",
+          "city": "Bangalore",
+          "fees": "text: ₹3.12 LPA",
+          "seats": 850,
+          "recognition": "UGC/AICTE",
+          "ranking": "#15 in India (NIRF Engineering)",
+          "type": "Private",
+          "image": "https://www.highereducationdigest.com/wp-content/uploads/2019/04/Img-3_800x480-4.jpg",
+          "admissionProcess": "Admission filtered via KCET, COMEDK, or dedicated management seat profiles.",
+          "placements": "Phenomenal recruitment tracking pulling down industry high packages average ₹22 LPA.",
+          "entranceExams": ["KCET", "COMEDK"],
+          "academicHighlights": ["Autonomous structural freedom", "Exceptional tech infrastructure", "Industry linked innovation incubators"],
+          "detailedFees": {
+            "tuitionFee": "₹3.12 LPA",
+            "hostelFee": "₹1,25,000 per year",
+            "otherFees": "One time registration profile fee"
+          },
+          "documentsRequired": ["COMEDK / KCET Score Card", "Allotment authorization letter", "Class 10 & 12 Academic dossiers"],
+          "placementStats": {
+            "medianSalaryUG": "₹20 LPA",
+            "medianSalaryPG": "₹26 LPA",
+            "internshipStipend": "₹75,000 per month",
+            "topRecruiters": ["Google", "Cisco", "Amazon", "Intel"]
+          },
+          "nriFees": "$6,500 per year"
+        },
+        {
+          "id": 3002,
+          "name": "MS Ramaiya",
+          "city": "Bangalore",
+          "fees": "text: ₹3.22 LPA",
+          "seats": 800,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Rated Private Engineering Institution in Bangalore",
+          "type": "Private",
+          "image": "https://i.ytimg.com/vi/X6pE-46Z5fE/maxresdefault.jpg",
+          "admissionProcess": "Through COMEDK/KCET tracks or separate institutional allocations.",
+          "placements": "Strong multi-decade long partnerships with tier 1 electronics and software players.",
+          "entranceExams": ["KCET", "COMEDK"],
+          "academicHighlights": ["Superb campus research ecosystem", "Autonomous curriculum flexibility", "Centrally located in Bangalore"],
+          "detailedFees": {
+            "tuitionFee": "₹3.22 LPA",
+            "hostelFee": "₹1,20,000 per year",
+            "otherFees": "Development fund fees extra"
+          },
+          "documentsRequired": ["Counselling Rank sheets", "10+2 Certificates", "Transfer credentials"],
+          "placementStats": {
+            "medianSalaryUG": "₹15 LPA",
+            "medianSalaryPG": "₹18 LPA",
+            "internshipStipend": "₹50,000 per month",
+            "topRecruiters": ["Samsung", "Schneider Electric", "Amazon", "Infosys"]
+          },
+          "nriFees": "$6,000 per year"
+        },
+        {
+          "id": 3003,
+          "name": "BMS",
+          "city": "Bangalore",
+          "fees": "text: ₹3.21 LPA",
+          "seats": 900,
+          "recognition": "UGC/AICTE",
+          "ranking": "Historic Premium Engineering College in India",
+          "type": "Private",
+          "image": "https://admissionbackup.com/wp-content/uploads/2017/09/Direct-Admission-BMS-College-of-Engineering.jpg",
+          "admissionProcess": "Admissions through KCET or COMEDK centralized counseling schedules.",
+          "placements": "Stellar recruitment trends matching highly premium core industrial metrics.",
+          "entranceExams": ["KCET", "COMEDK"],
+          "academicHighlights": ["NBA Accredited across multiple tiers", "Vibrant student club network", "Strong foundational alumni footprint"],
+          "detailedFees": {
+            "tuitionFee": "₹3.21 LPA",
+            "hostelFee": "₹1,15,000 per year",
+            "otherFees": "Miscellaneous processing fees"
+          },
+          "documentsRequired": ["COMEDK / KCET Admit & Rank cards", "Allotment proofs", "Academic transcripts"],
+          "placementStats": {
+            "medianSalaryUG": "₹16 LPA",
+            "medianSalaryPG": "₹22 LPA",
+            "internshipStipend": "₹60,000 per month",
+            "topRecruiters": ["Bosch", "Flipkart", "Accenture", "Microsoft"]
+          },
+          "nriFees": "$5,000 per year"
+        },
+        {
+          "id": 3004,
+          "name": "BIT",
+          "city": "Bangalore",
+          "fees": "text: ₹3 LPA",
+          "seats": 780,
+          "recognition": "UGC/AICTE",
+          "ranking": "Prominent Private Engineering College in South Bangalore",
+          "type": "Private",
+          "image": "https://bit-bangalore.edu.in/assets/images/lifebit/bit-campus.jpg",
+          "admissionProcess": "Admissions channeled via COMEDK test rankings or state level KCET system.",
+          "placements": "Consistent campus placements focusing heavy track lines in software delivery.",
+          "entranceExams": ["KCET", "COMEDK"],
+          "academicHighlights": ["Strong fundamental labs", "Affiliated under VTU framework parameters", "Excellent central connection points"],
+          "detailedFees": {
+            "tuitionFee": "₹3 LPA",
+            "hostelFee": "₹98,000 per year",
+            "otherFees": "University administrative fees extra"
+          },
+          "documentsRequired": ["Rank verification docs", "10+2 original marklists", "Identity paperwork proofs"],
+          "placementStats": {
+            "medianSalaryUG": "₹7.5 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹22,000 per month",
+            "topRecruiters": ["Oracle", "Dell", "Capgemini", "HP"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 3005,
+          "name": "Amrita University",
+          "city": "Coimbatore",
+          "fees": "text: ₹1.56 LPA",
+          "seats": 1000,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top 15 Ranked Multi Campus University under NIRF",
+          "type": "Private",
+          "image": "https://webfiles.amrita.edu/2021/09/OvZftjDw-amritapuri-campus-1384.jpg",
+          "admissionProcess": "Admissions processed via internal AEEE exam rankings or standard JEE Main.",
+          "placements": "Outstanding track of placements into high tier tech firms and research units.",
+          "entranceExams": ["AEEE", "JEE Main"],
+          "academicHighlights": ["Strong cultural framework and values", "Expansive world class green design campuses", "Highly advanced global research modules"],
+          "detailedFees": {
+            "tuitionFee": "₹1.56 LPA",
+            "hostelFee": "₹85,000 per year",
+            "otherFees": "Caution deposit refundable extra"
+          },
+          "documentsRequired": ["AEEE / JEE Score sheet", "Allotment letter documentation", "Class 10 & 12 Academic certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹9.2 LPA",
+            "medianSalaryPG": "₹11 LPA",
+            "internshipStipend": "₹35,000 per month",
+            "topRecruiters": ["Intel", "NVIDIA", "Amazon", "Cisco Systems"]
+          },
+          "nriFees": "$8,000 per year"
+        },
+        {
+          "id": 3006,
+          "name": "PES University",
+          "city": "Bangalore",
+          "fees": "text: ₹5.50 LPA",
+          "seats": 1400,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Private University in Karnataka Hub",
+          "type": "Private",
+          "image": "https://media.collegedekho.com/media/img/institute/crawled_images/PES_University1.jpg",
+          "admissionProcess": "Admissions through PESSAT institutional entrance exam or valid KCET score profiles.",
+          "placements": "Premium tier placements pulling deep traction from elite product tech domains.",
+          "entranceExams": ["PESSAT", "KCET"],
+          "academicHighlights": ["Highly competitive academic environment", "Premium state-of-the-art infrastructure", "Excellent industrial research cells"],
+          "detailedFees": {
+            "tuitionFee": "₹5.50 LPA",
+            "hostelFee": "₹1,40,000 per year",
+            "otherFees": "Exam and development structures added extra"
+          },
+          "documentsRequired": ["PESSAT Score Card", "KCET records if applicable", "10+2 marksheet originals"],
+          "placementStats": {
+            "medianSalaryUG": "₹13.5 LPA",
+            "medianSalaryPG": "₹15 LPA",
+            "internshipStipend": "₹55,000 per month",
+            "topRecruiters": ["Microsoft", "Intuit", "Amazon", "Deloitte"]
+          },
+          "nriFees": "$12,000 per year"
+        },
+        {
+          "id": 3007,
+          "name": "Manipal University",
+          "city": "Manipal",
+          "fees": "text: ₹5.60 LPA",
+          "seats": 2000,
+          "recognition": "UGC/AICTE",
+          "ranking": "Premier Iconic Private University in India",
+          "type": "Private",
+          "image": "https://www.manipal.edu/content/dam/manipal/mu/imagesnew/Campuslife/1440%20x%20800px%20.jpg",
+          "admissionProcess": "Admissions screened through the MET (Manipal Entrance Test) national channel.",
+          "placements": "Incredible placements matching premium global technology job footprints.",
+          "entranceExams": ["MET"],
+          "academicHighlights": ["World class infrastructure and campus life", "Elite global alumni network", "Superior industrial laboratory collaborations"],
+          "detailedFees": {
+            "tuitionFee": "₹5.60 LPA",
+            "hostelFee": "₹1,60,000 per year",
+            "otherFees": "Registration utility flat charge"
+          },
+          "documentsRequired": ["MET Rank Document", "Allotment confirmation files", "Class 10 & 12 Marksheets"],
+          "placementStats": {
+            "medianSalaryUG": "₹12.5 LPA",
+            "medianSalaryPG": "₹14 LPA",
+            "internshipStipend": "₹50,000 per month",
+            "topRecruiters": ["Qualcomm", "Amazon", "Microsoft", "Goldman Sachs"]
+          },
+          "nriFees": "$14,000 per year"
+        },
+        {
+          "id": 3008,
+          "name": "KIIT University",
+          "city": "Bhubaneswar",
+          "fees": "text: ₹2 LPA",
+          "seats": 2500,
+          "recognition": "UGC/AICTE",
+          "ranking": "Prestigious Private Campus with Top Class Sports Infrastructure",
+          "type": "Private",
+          "image": "https://careerpaathshala.com/wp-content/uploads/2023/07/3-25.jpg",
+          "admissionProcess": "Admission based on KIITEE centralized examination results with zero application cost.",
+          "placements": "100% placement tracking records across major software systems platforms.",
+          "entranceExams": ["KIITEE"],
+          "academicHighlights": ["Stunning mega campus setups", "Extremely wide global network reach", "High performance research centers"],
+          "detailedFees": {
+            "tuitionFee": "₹2 LPA",
+            "hostelFee": "₹90,000 per year",
+            "otherFees": "Registration and library deposits extra"
+          },
+          "documentsRequired": ["KIITEE scorecard copy", "Academic records verification certificates", "Identity records"],
+          "placementStats": {
+            "medianSalaryUG": "₹8.0 LPA",
+            "medianSalaryPG": "₹9.5 LPA",
+            "internshipStipend": "₹30,000 per month",
+            "topRecruiters": ["HighRadius", "Cognizant", "Wipro", "Accenture"]
+          },
+          "nriFees": "$8,000 per year"
+        },
+        {
+          "id": 3009,
+          "name": "REVA University",
+          "city": "Bangalore",
+          "fees": "text: ₹2.75 LPA",
+          "seats": 1200,
+          "recognition": "UGC/AICTE",
+          "ranking": "Emerging Modern Private University in North Bangalore",
+          "type": "Private",
+          "image": "https://files.reva.ac.in/uploads/logo/68caa3a8677c81758110632.webp",
+          "admissionProcess": "Admissions through REVA CLAT / KCET / COMEDK or direct matching merit slots.",
+          "placements": "Good placement tracking across multi-channel corporate entities.",
+          "entranceExams": ["REVA CET", "KCET", "COMEDK"],
+          "academicHighlights": ["Contemporary infrastructure layouts", "Green campus architecture", "Focus on technical industrial readiness"],
+          "detailedFees": {
+            "tuitionFee": "₹2.75 LPA",
+            "hostelFee": "₹1,10,000 per year",
+            "otherFees": "Processing structures flat fees"
+          },
+          "documentsRequired": ["Entrance exam scoring profiles", "10+2 board documents", "Transfer certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹6.2 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹20,000 per month",
+            "topRecruiters": ["Capgemini", "Logitech", "LTI", "TCS"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 3010,
+          "name": "VIT Vellore",
+          "city": "Vellore",
+          "fees": "text: ₹1.98 - ₹4.95 LPA",
+          "seats": 4000,
+          "recognition": "UGC/AICTE",
+          "ranking": "#11 in India (NIRF Engineering)",
+          "type": "Private",
+          "image": "https://images.shiksha.com/mediadata/images/articles/1765785696phpCfpAwL.jpeg",
+          "admissionProcess": "Admissions managed via VITEEE multi-day ranking slots categorizations.",
+          "placements": "Massive scale record-setting placement counts with product and service giants.",
+          "entranceExams": ["VITEEE"],
+          "academicHighlights": ["Flexible Fully Flexible Credit System (FFCS)", "Huge international exposure index", "Massive tech fest infrastructure"],
+          "detailedFees": {
+            "tuitionFee": "₹1.98 - ₹4.95 LPA (Categorized standard scales)",
+            "hostelFee": "₹1,20,000 per year",
+            "otherFees": "Admission handling fee extra"
+          },
+          "documentsRequired": ["VITEEE Rank Sheet Document", "Allotment verification dossier", "Class 12 academic files"],
+          "placementStats": {
+            "medianSalaryUG": "₹9.5 LPA",
+            "medianSalaryPG": "₹10.5 LPA",
+            "internshipStipend": "₹40,000 per month",
+            "topRecruiters": ["Microsoft", "Intel", "De Shaw", "Amazon"]
+          },
+          "nriFees": "$9,500 per year"
+        },
+        {
+          "id": 3011,
+          "name": "SRM University",
+          "city": "Chennai",
+          "fees": "text: ₹4.75 LPA",
+          "seats": 3000,
+          "recognition": "UGC/AICTE",
+          "ranking": "#45 in India (NIRF Engineering)",
+          "type": "Private",
+          "image": "https://www.learningroutes.in/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fweb_cms_content%2Fsrmbanner_6a172baa13%2Fsrmbanner_6a172baa13.webp&w=3840&q=75",
+          "admissionProcess": "Admission via SRMJEEE (Engineering Entrance Exam) ranking rounds.",
+          "placements": "Huge campus placements tracks with over 800+ entities logging in yearly.",
+          "entranceExams": ["SRMJEEE", "JEE Main"],
+          "academicHighlights": ["Deemed to be University scale benefits", "Multi-disciplinary project models", "Global international pathways frameworks"],
+          "detailedFees": {
+            "tuitionFee": "₹4.75 LPA",
+            "hostelFee": "₹1,50,000 per year",
+            "otherFees": "Registration fee extra"
+          },
+          "documentsRequired": ["SRMJEEE Score documentation", "10+2 marks files", "Migration certificates"],
+          "placementStats": {
+            "medianSalaryUG": "₹10 LPA",
+            "medianSalaryPG": "₹15 LPA",
+            "internshipStipend": "₹40,000 per month",
+            "topRecruiters": ["Amazon", "Cognizant", "Wipro", "IBM"]
+          },
+          "nriFees": "$8,000 per year"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Punjab & Rajasthan Region",
+      "slug": "punjab-rajasthan",
+      "image": "https://images.unsplash.com/photo-1566837945700-30057527ade0?w=800",
+      "description": "High tier educational layout tracking campuses from Punjab plains into modern technology universities of Rajasthan.",
+      "colleges": [
+        {
+          "id": 4001,
+          "name": "THAPAR",
+          "city": "Patiala",
+          "fees": "text: ₹6 LPA",
+          "seats": 1500,
+          "recognition": "UGC/AICTE",
+          "ranking": "Top Rated Historical Private Institute in North India",
+          "type": "Private",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/5b/9d/fd/thapar-university.jpg?w=1200&h=-1&s=1",
+          "admissionProcess": "Admissions through JEE Main rank cutoffs or Class 12 PCM board marks criteria.",
+          "placements": "Phenomenal track record with premier packages matching top NIT institutions.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Exceptional high level infrastructure", "Strong research output indexes", "Trinity College Dublin global partnership tie-ups"],
+          "detailedFees": {
+            "tuitionFee": "₹6 LPA",
+            "hostelFee": "₹1,30,000 per year",
+            "otherFees": "Development fund extra charges"
+          },
+          "documentsRequired": ["JEE Main Score sheet", "TIET Allotment letter documentation", "10+2 Academic results"],
+          "placementStats": {
+            "medianSalaryUG": "₹12 LPA",
+            "medianSalaryPG": "₹10 LPA",
+            "internshipStipend": "₹45,000 per month",
+            "topRecruiters": ["Apple", "De Shaw", "JPMorgan Chase", "Maruti Suzuki"]
+          },
+          "nriFees": "$10,500 per year"
+        },
+        {
+          "id": 4002,
+          "name": "NIMS Jaipur",
+          "city": "Jaipur",
+          "fees": "text: ₹2.15 LPA",
+          "seats": 480,
+          "recognition": "UGC/AICTE",
+          "ranking": "Vast Private Medical and Technical University in Rajasthan",
+          "type": "Private",
+          "image": "https://image-static.collegedunia.com/public/college_data/images/appImage/1592586164Cover.png",
+          "admissionProcess": "Admission managed by NIMS entrance validation or score tracking in JEE Main.",
+          "placements": "Stable placement networks matching domestic structural systems companies.",
+          "entranceExams": ["JEE Main", "NIMS Entrance"],
+          "academicHighlights": ["Extremely massive campus space layout", "Integrated hospital and tech wings", "Diverse cultural exposure index"],
+          "detailedFees": {
+            "tuitionFee": "₹2.15 LPA",
+            "hostelFee": "₹80,000 per year",
+            "otherFees": "Examination handling fees added extra"
+          },
+          "documentsRequired": ["JEE Main Rank card / internal test files", "12th board sheets", "ID verification dossiers"],
+          "placementStats": {
+            "medianSalaryUG": "₹5.2 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹15,000 per month",
+            "topRecruiters": ["Artech", "HCL Tech", "Genpact", "Reliance"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        },
+        {
+          "id": 4003,
+          "name": "MIMIT Malout",
+          "city": "Malout",
+          "fees": "text: ₹86 K PA",
+          "seats": 360,
+          "recognition": "AICTE Approved Government Aided College",
+          "type": "Government",
+          "image": "https://images.shiksha.com/mediadata/images/1529413109phpxx2K0G.gif",
+          "admissionProcess": "Admissions processed through IKGPTU Jalandhar counselling based upon JEE Main ranks or 12th Marks merit.",
+          "placements": "Affordable career options with recruitment across public sector and service vendors.",
+          "entranceExams": ["JEE Main"],
+          "academicHighlights": ["Extremely economical fee structures", "State government backed infrastructure models", "Highly peaceful learning ecosystem environment"],
+          "detailedFees": {
+            "tuitionFee": "text: ₹86,000 per year",
+            "hostelFee": "₹25,000 per year",
+            "otherFees": "University administrative payments flat fee"
+          },
+          "documentsRequired": ["JEE Main Rank slip", "PTU counselling allocation confirmation", "HSC & SSC mark lists", "Domicile document if applicable"],
+          "placementStats": {
+            "medianSalaryUG": "₹4.2 LPA",
+            "medianSalaryPG": "NOT AVAILABLE",
+            "internshipStipend": "₹12,000 per month",
+            "topRecruiters": ["TCS", "Tech Mahindra", "Cognizant", "Puda"]
+          },
+          "nriFees": "NOT AVAILABLE"
+        }
+      ]
+    }
+  ]
+}

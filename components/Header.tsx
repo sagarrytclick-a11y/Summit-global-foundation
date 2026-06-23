@@ -65,6 +65,14 @@ const mdMsAbbreviations: Record<string, string> = {
   'Tamil Nadu': 'TN',
 };
 
+const btechAbbreviations: Record<string, string> = {
+  'Maharashtra': 'MH',
+  'Karnataka': 'KA',
+  'Tamil Nadu': 'TN',
+  'Uttar Pradesh': 'UP',
+  'Delhi': 'DL',
+};
+
 const Header = () => {
   const { openPopup } = usePopup();
   const pathname = usePathname();
@@ -76,29 +84,33 @@ const Header = () => {
 
   const [indiaStates, setIndiaStates] = useState<State[]>([]);
   const [indiaFilterState, setIndiaFilterState] = useState('');
+  const [btechFilterState, setBtechFilterState] = useState('');
   const [abroadCountries, setAbroadCountries] = useState<Country[]>([]);
   const [mdmsStates, setMdmsStates] = useState<State[]>([]);
+  const [btechStates, setBtechStates] = useState<State[]>([]);
 
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    // { name: 'About', href: '/about' },
     { name: 'MBBS India', href: '/colleges/mbbs-india', hasDropdown: true },
     { name: 'MBBS Abroad', href: '/colleges/mbbs-abroad', hasDropdown: true },
     { name: 'MD/MS', href: '/colleges/md-ms', hasDropdown: true },
+    { name: 'BTech', href: '/colleges/btech', hasDropdown: true },
     { name: 'NEET Predictor', href: '/neet-rank-predictor' },
-    { name: 'Contact', href: '/contact' },
+    // { name: 'Contact', href: '/contact' },
   ];
 
-  const fetchData = async (type: 'india' | 'abroad' | 'mdms') => {
+  const fetchData = async (type: 'india' | 'abroad' | 'mdms' | 'btech') => {
     try {
-      const url = type === 'india' ? '/mbbs-india.json' : type === 'abroad' ? '/mbbs-abroad.json' : '/md-ms.json';
+      const url = type === 'india' ? '/mbbs-india.json' : type === 'abroad' ? '/mbbs-abroad.json' : type === 'mdms' ? '/md-ms.json' : '/btech.json';
       const res = await fetch(url);
       const data = await res.json();
       if (type === 'india') setIndiaStates(data.states);
       else if (type === 'abroad') setAbroadCountries(data.countries);
-      else setMdmsStates(data.states);
+      else if (type === 'mdms') setMdmsStates(data.states);
+      else setBtechStates(data.states);
     } catch (err) {
       console.error(err);
     }
@@ -111,6 +123,7 @@ const Header = () => {
     if (name === 'MBBS India' && indiaStates.length === 0) fetchData('india');
     if (name === 'MBBS Abroad' && abroadCountries.length === 0) fetchData('abroad');
     if (name === 'MD/MS' && mdmsStates.length === 0) fetchData('mdms');
+    if (name === 'BTech' && btechStates.length === 0) fetchData('btech');
   };
 
   const handleMouseLeave = () => {
@@ -124,6 +137,7 @@ const Header = () => {
     if (itemName === 'MBBS Abroad' && abroadCountries.length === 0) fetchData('abroad');
     if (itemName === 'MBBS India' && indiaStates.length === 0) fetchData('india');
     if (itemName === 'MD/MS' && mdmsStates.length === 0) fetchData('mdms');
+    if (itemName === 'BTech' && btechStates.length === 0) fetchData('btech');
     setExpandedMobileItems(prev =>
       prev.includes(itemName) ? prev.filter(item => item !== itemName) : [...prev, itemName]
     );
@@ -399,8 +413,98 @@ const Header = () => {
                   )}
                 </AnimatePresence>
 
-                {/* ========== MD/MS MEGA MENU ========== */}
+                {/* ========== BTECH MEGA MENU ========== */}
                 <AnimatePresence>
+                  {activeDropdown === 'BTech' && item.name === 'BTech' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 12 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 12 }}
+                      transition={{ duration: 0.22 }}
+                      className="absolute top-full left-1/2 -translate-x-1/2 mt-[2px] z-[999] w-[820px]"
+                      onMouseEnter={() => { if (timeoutRef.current) clearTimeout(timeoutRef.current); }}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      <div className="rounded-2xl shadow-[0_20px_70px_rgba(0,0,0,0.15)] overflow-hidden border border-gray-100">
+                        {/* HEADER */}
+                        <div className="bg-gradient-to-r from-[#0b0e24] via-[#141838] to-[#1e2259] px-6 py-5 flex items-center justify-between">
+                          <div>
+                            <h3 className="text-white font-bold text-lg">BTech Admissions</h3>
+                            <p className="text-white/50 text-sm mt-0.5">Top engineering colleges, JEE counselling, fees & admission guidance.</p>
+                          </div>
+                          <Link href="/colleges/btech" className="flex-shrink-0 bg-[#f59e0b] text-white px-4 py-2 rounded-lg text-xs font-bold hover:bg-[#d97706] transition-all flex items-center gap-2">
+                            ALL COLLEGES
+                            <FaExternalLinkAlt className="text-[10px]" />
+                          </Link>
+                        </div>
+
+                        {/* BODY: College grid with state filter */}
+                        <div className="bg-white max-h-[420px] overflow-y-auto">
+                          <div className="sticky top-0 bg-white z-10 border-b border-gray-100 px-5 py-3">
+                            <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide pb-1">
+                              <button onClick={() => setBtechFilterState('')}
+                                className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${btechFilterState === '' ? 'bg-[#1e2259] text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                                All States
+                              </button>
+                              {btechStates.map((s) => (
+                                <button key={s.id} onClick={() => setBtechFilterState(s.name)}
+                                  className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${btechFilterState === s.name ? 'bg-[#1e2259] text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                                  {s.name}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div className="p-5">
+                            {(() => {
+                              const filtered = btechStates.flatMap(s =>
+                                !btechFilterState || s.name === btechFilterState ? s.colleges : []
+                              );
+                              if (filtered.length === 0) {
+                                return <p className="text-sm text-gray-400 text-center py-8">No colleges found for this state.</p>;
+                              }
+                              const half = Math.ceil(filtered.slice(0, 36).length / 2);
+                              const left = filtered.slice(0, half);
+                              const right = filtered.slice(half, 36);
+                              return (
+                                <div className="grid grid-cols-2 gap-x-8 gap-y-1">
+                                  <div>
+                                    {left.map((college) => (
+                                      <Link key={college.id} href={`/colleges/btech/${getCollegeSlug(college.name)}`} className="group/col flex items-start justify-between py-1.5 hover:bg-gray-50 rounded px-2 -mx-2 transition-all">
+                                        <div className="flex-1 min-w-0">
+                                          <p className="text-sm font-semibold text-gray-800 group-hover/col:text-[#f59e0b] transition-colors leading-snug truncate">{college.name}</p>
+                                          <p className="text-xs text-gray-400 mt-0.5">{college.city}</p>
+                                        </div>
+                                        <FaExternalLinkAlt className="text-[10px] text-gray-300 mt-1 flex-shrink-0 ml-2 group-hover/col:text-[#f59e0b] transition-colors" />
+                                      </Link>
+                                    ))}
+                                  </div>
+                                  <div>
+                                    {right.map((college) => (
+                                      <Link key={college.id} href={`/colleges/btech/${getCollegeSlug(college.name)}`} className="group/col flex items-start justify-between py-1.5 hover:bg-gray-50 rounded px-2 -mx-2 transition-all">
+                                        <div className="flex-1 min-w-0">
+                                          <p className="text-sm font-semibold text-gray-800 group-hover/col:text-[#f59e0b] transition-colors leading-snug truncate">{college.name}</p>
+                                          <p className="text-xs text-gray-400 mt-0.5">{college.city}</p>
+                                        </div>
+                                        <FaExternalLinkAlt className="text-[10px] text-gray-300 mt-1 flex-shrink-0 ml-2 group-hover/col:text-[#f59e0b] transition-colors" />
+                                      </Link>
+                                    ))}
+                                  </div>
+                                </div>
+                              );
+                            })()}
+                          </div>
+                        </div>
+
+                        {/* FOOTER */}
+                        <div className="border-t border-gray-100 bg-white px-6 py-3 text-right">
+                          <Link href="/colleges/btech" className="text-sm font-bold text-gray-700 hover:text-[#f59e0b] transition-colors flex items-center justify-end gap-1">
+                            View all engineering colleges <FaArrowRight className="text-[10px]" />
+                          </Link>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
                   {activeDropdown === 'MD/MS' && item.name === 'MD/MS' && (
                     <motion.div
                       initial={{ opacity: 0, y: 12 }}
@@ -598,6 +702,25 @@ const Header = () => {
                                     </AnimatePresence>
                                   </div>
                                 ))}
+                              </div>
+                            )}
+                            {link.name === 'BTech' && btechStates.length > 0 && (
+                              <div className="space-y-2">
+                                {(() => {
+                                  const allColleges = btechStates.flatMap(s => s.colleges).slice(0, 20);
+                                  return (
+                                    <>
+                                      {allColleges.map((college) => (
+                                        <Link key={college.id} href={`/colleges/btech/${getCollegeSlug(college.name)}`} onClick={() => setMobileMenuOpen(false)} className="block text-sm font-medium text-gray-700 hover:text-[#f59e0b] py-1.5 px-4 transition-all border-l-2 border-transparent hover:border-[#f59e0b]">
+                                          {college.name}
+                                        </Link>
+                                      ))}
+                                      <Link href="/colleges/btech" onClick={() => setMobileMenuOpen(false)} className="block text-xs font-bold text-[#f59e0b] py-2 px-4 transition-all">
+                                        View All Colleges →
+                                      </Link>
+                                    </>
+                                  );
+                                })()}
                               </div>
                             )}
                           </motion.div>
