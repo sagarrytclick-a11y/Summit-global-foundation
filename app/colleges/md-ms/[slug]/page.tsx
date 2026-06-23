@@ -344,7 +344,7 @@ const MdMsStatePage: React.FC = () => {
         <div className="grid lg:grid-cols-3 gap-8 pt-12">
           <div className="lg:col-span-1 bg-slate-900 rounded-[40px] p-10 text-white flex flex-col justify-center relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-blue-600/20 rounded-full -mr-16 -mt-16 blur-2xl"></div>
-            <h3 className="text-4xl font-black mb-6 leading-tight">Available <br /><span className="text-blue-500">Clinical Courses</span></h3>
+            <h3 className="text-4xl font-black mb-6 leading-tight">Available <br /><span className="text-white">Clinical Courses</span></h3>
             <p className="text-slate-400 font-medium leading-relaxed mb-8">
               Explore the wide range of specializations available for MD and MS programs in {stateData.name}.
             </p>
